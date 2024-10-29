@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1c40f; /* Assam Theme Background Color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #c0392b; /* Assam Theme Calculator Background Color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #e67e22; /* Assam Theme Text Input Border Color */
+  border-radius: 5px;
+  background-color: #e67e22; /* Assam Theme Text Input Background Color */
+  color: #fff; /* Text Color */
+}
+
+input[type="button"] {
+  width: 23%;
+  margin: 1%;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #e67e22; /* Assam Theme Button Border Color */
+  border-radius: 5px;
+  background-color: #e67e22; /* Assam Theme Button Background Color */
+  color: #fff; /* Text Color */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+  background-color: #d35400; /* Assam Theme Button Hover Color */
+}
+
+#result {
+  font-size: 24px;
+  text-align: right;
+  border: 1px solid #e67e22; /* Assam Theme Result Border Color */
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #e67e22; /* Assam Theme Result Background Color */
+  color: #fff; /* Text Color */
+}
+
+@media (max-width: 600px) {
+  input[type="button"] {
+    width: 30%;
+    margin: 1%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
